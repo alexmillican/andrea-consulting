@@ -9,8 +9,8 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-blue-100 mb-6 leading-relaxed">
                 <span className="font-semibold text-white">FH Healthcare Consulting</span> provides services to 
                 <span className="font-semibold text-white ml-1"> Life Sciences organizations</span> helping them optimize their 
-                <span className="font-bold text-yellow-200 ml-1">market access and reimbursement</span>, leveraging 
-                <span className="font-bold text-yellow-200 ml-1">HEOR tools</span>: that is, 
+                <span className="font-bold ml-1" style={{color: '#ADE4EF'}}>market access and reimbursement</span>, leveraging 
+                <span className="font-bold ml-1" style={{color: '#ADE4EF'}}>HEOR tools</span>: that is, 
                 <span className="italic text-blue-100 ml-1">achievable price, time to market and patient population size</span>.
               </p>
             </div>
@@ -18,9 +18,9 @@ export default function Home() {
             <div className="border-t border-blue-300/30 pt-8">
               <p className="text-lg md:text-xl text-blue-100 leading-relaxed max-w-4xl mx-auto">
                 Its Founder and Managing Director, <span className="font-semibold text-white ml-1">Andrea Latour</span>, has a unique blend of 
-                <span className="font-medium text-yellow-200 ml-1">strategy & commercial</span>, 
-                <span className="font-medium text-yellow-200 ml-1">market access & pricing</span>, and 
-                <span className="font-medium text-yellow-200 ml-1">HEOR & evidence generation</span> experience, 
+                <span className="font-medium ml-1" style={{color: '#ADE4EF'}}>strategy & commercial</span>, 
+                <span className="font-medium ml-1" style={{color: '#ADE4EF'}}>market access & pricing</span>, and 
+                <span className="font-medium ml-1" style={{color: '#ADE4EF'}}>HEOR & evidence generation</span> experience, 
                 from many years in <span className="font-semibold text-white ml-1">Industry and Consulting roles</span>, 
                 across <span className="italic text-blue-200 ml-1">European and APAC markets</span>.
               </p>
@@ -37,9 +37,6 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Our Services
               </h2>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                We provide comprehensive market access consulting services designed to optimize your product's pathway to market and maximize commercial success.
-              </p>
             </div>
 
             {/* First row - 3 services */}
@@ -109,7 +106,7 @@ export default function Home() {
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-12 h-12 bg-[#65A837] rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-900">HE (Health Economics)</h3>
