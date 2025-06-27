@@ -4,13 +4,27 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[#0E6AAB] to-[#65A837] text-white py-20">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Healthcare Business Excellence
-            </h1>
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Empowering healthcare organizations to achieve operational excellence, financial sustainability, and exceptional patient outcomes.
-            </p>
+          <div className="max-w-5xl mx-auto text-center">
+            <div className="mb-12">
+              <p className="text-xl md:text-2xl text-blue-100 mb-6 leading-relaxed">
+                <span className="font-semibold text-white">FH Healthcare Consulting</span> provides services to 
+                <span className="font-semibold text-white ml-1"> Life Sciences organizations</span> helping them optimize their 
+                <span className="font-bold text-yellow-200 ml-1">market access and reimbursement</span>, leveraging 
+                <span className="font-bold text-yellow-200 ml-1">HEOR tools</span>: that is, 
+                <span className="italic text-blue-100 ml-1">achievable price, time to market and patient population size</span>.
+              </p>
+            </div>
+            
+            <div className="border-t border-blue-300/30 pt-8">
+              <p className="text-lg md:text-xl text-blue-100 leading-relaxed max-w-4xl mx-auto">
+                Its Founder and Managing Director, <span className="font-semibold text-white ml-1">Andrea Latour</span>, has a unique blend of 
+                <span className="font-medium text-yellow-200 ml-1">strategy & commercial</span>, 
+                <span className="font-medium text-yellow-200 ml-1">market access & pricing</span>, and 
+                <span className="font-medium text-yellow-200 ml-1">HEOR & evidence generation</span> experience, 
+                from many years in <span className="font-semibold text-white ml-1">Industry and Consulting roles</span>, 
+                across <span className="italic text-blue-200 ml-1">European and APAC markets</span>.
+              </p>
+            </div>
           </div>
         </div>
       </section>
