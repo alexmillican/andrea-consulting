@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Spectral } from "next/font/google";
+import Image from 'next/image';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,10 +32,12 @@ function Header() {
           <div className="flex items-center space-x-3">
             {/* Company Logo */}
             <div className="w-12 h-12 flex items-center justify-center -mt-1">
-              <img 
+              <Image 
                 src="/20250627_FH Consulting_Logo.png" 
                 alt="Freedom House Health Consulting Logo" 
-                className="w-12 h-12 object-contain"
+                width={48}
+                height={48}
+                className="object-contain"
               />
             </div>
             <div>

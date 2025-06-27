@@ -73,7 +73,7 @@ export default function Home() {
                 <ul className="text-gray-700 text-base space-y-1">
                   <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>Pricing research</span></li>
                   <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
-                  <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>Payer's analogues & precedents</span></li>
+                  <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>Payer&apos;s analogues & precedents</span></li>
                   <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>Economically justifiable price (EJP)</span></li>
                   <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>HE analysis integration</span></li>
                   <li className="flex items-start" style={{fontFamily: 'Arial, sans-serif'}}><span className="mr-2 text-2xl -mt-1" style={{color: '#0E6AAB'}}>•</span><span>Access schemes, RSAs, MESs</span></li>
