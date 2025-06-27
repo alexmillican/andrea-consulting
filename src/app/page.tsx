@@ -31,13 +31,15 @@ export default function Home() {
             {/* First row - 3 services */}
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-[#0E6AAB] rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19c6.28 0 10-9.79 10-9.79S15.28 3 9 3s-8 3.21-8 7.21S2.72 19 9 19z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9h.01" />
-                  </svg>
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-12 h-12 bg-[#0E6AAB] rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900">Market Access</h3>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Market Access</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Market/payer landscape assessment</span></li>
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Stakeholder/KOL mapping</span></li>
@@ -49,12 +51,14 @@ export default function Home() {
               </div>
 
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-[#65A837] rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                  </svg>
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-12 h-12 bg-[#65A837] rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900">Pricing</h3>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Pricing</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Pricing research</span></li>
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
@@ -66,12 +70,14 @@ export default function Home() {
               </div>
 
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-[#0E6AAB] rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-12 h-12 bg-[#0E6AAB] rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900">HTA</h3>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">HTA</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>HTA roadmapping</span></li>
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Reimbursement dossier development</span></li>
@@ -86,12 +92,14 @@ export default function Home() {
             {/* Second row - 2 services */}
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-[#65A837] rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-12 h-12 bg-[#65A837] rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900">HE (Health Economics)</h3>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">HE (Health Economics)</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Model development (CUA, CEA, CMA)</span></li>
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Decision Tree, Markov, Partition Survival</span></li>
@@ -103,12 +111,14 @@ export default function Home() {
               </div>
 
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
-                <div className="w-16 h-16 bg-[#0E6AAB] rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-12 h-12 bg-[#0E6AAB] rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571-3-5.571 3" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900">OR / RWE</h3>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">OR / RWE</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence gaps analysis</span></li>
                   <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence generation planning</span></li>
