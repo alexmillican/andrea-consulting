@@ -39,12 +39,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Market Access</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Market/payer landscape assessment</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Stakeholder/KOL mapping</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>New product planning</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Value proposition development</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>GVD/CVD development and adaptation</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Payer engagement</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Market/payer landscape assessment</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Stakeholder/KOL mapping</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>New product planning</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Value proposition development</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>GVD/CVD development and adaptation</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Payer engagement</span></li>
                 </ul>
               </div>
 
@@ -56,12 +56,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Pricing</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Pricing research</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Payer's analogues & precedents</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Economically justifiable price (EJP)</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>HE analysis integration</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Access schemes, RSAs, MESs</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Pricing research</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Payer's analogues & precedents</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Economically justifiable price (EJP)</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>HE analysis integration</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Access schemes, RSAs, MESs</span></li>
                 </ul>
               </div>
 
@@ -73,12 +73,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">HTA</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>HTA roadmapping</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Reimbursement dossier development</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Dossier review</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Targeted literature reviews</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Stakeholder input collection</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Patient organization engagement</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>HTA roadmapping</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Reimbursement dossier development</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Dossier review</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Targeted literature reviews</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Stakeholder input collection</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Patient organization engagement</span></li>
                 </ul>
               </div>
             </div>
@@ -93,12 +93,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">HE (Health Economics)</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Model development (CUA, CEA, CMA)</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Decision Tree, Markov, Partition Survival</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>BIA: Financial & Outcome-based</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Model adaptation</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>COI/BOI studies</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Bucker ITC & Local HE studies</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Model development (CUA, CEA, CMA)</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Decision Tree, Markov, Partition Survival</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>BIA: Financial & Outcome-based</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Model adaptation</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>COI/BOI studies</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Bucker ITC & Local HE studies</span></li>
                 </ul>
               </div>
 
@@ -110,12 +110,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">OR / RWE</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evidence gaps analysis</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evidence generation planning</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Costing and MRU studies</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Ad boards, Delphi Panels</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Publications & Literature reviews</span></li>
-                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evidence dissemination</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence gaps analysis</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence generation planning</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Costing and MRU studies</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Ad boards, Delphi Panels</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Publications & Literature reviews</span></li>
+                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence dissemination</span></li>
                 </ul>
               </div>
             </div>
@@ -211,19 +211,19 @@ export default function Home() {
                   </div>
 
                   <div className="space-y-3">
-                    <div className="flex items-start space-x-3">
+                    <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-[#65A837] rounded-full mt-2"></div>
                       <p className="text-gray-700">Master's in Healthcare Administration (MHA)</p>
                     </div>
-                    <div className="flex items-start space-x-3">
+                    <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-[#65A837] rounded-full mt-2"></div>
                       <p className="text-gray-700">Certified Lean Six Sigma Black Belt</p>
                     </div>
-                    <div className="flex items-start space-x-3">
+                    <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-[#65A837] rounded-full mt-2"></div>
                       <p className="text-gray-700">Board Certified in Healthcare Management</p>
                     </div>
-                    <div className="flex items-start space-x-3">
+                    <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-[#65A837] rounded-full mt-2"></div>
                       <p className="text-gray-700">Former Healthcare System Executive</p>
                     </div>
