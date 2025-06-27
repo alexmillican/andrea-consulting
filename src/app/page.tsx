@@ -54,13 +54,13 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-900">Market Access</h3>
                 </div>
-                <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Market/payer landscape assessment</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Stakeholder/KOL mapping</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>New product planning</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Value proposition development</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>GVD/CVD development and adaptation</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Payer engagement</span></li>
+                <ul className="text-gray-700 text-base space-y-1">
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Market/payer landscape assessment</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Stakeholder/KOL mapping</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>New product planning</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Value proposition development</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>GVD/CVD development and adaptation</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Payer engagement</span></li>
                 </ul>
               </div>
 
@@ -73,13 +73,13 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-900">Pricing</h3>
                 </div>
-                <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Pricing research</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Payer's analogues & precedents</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Economically justifiable price (EJP)</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>HE analysis integration</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Access schemes, RSAs, MESs</span></li>
+                <ul className="text-gray-700 text-base space-y-1">
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Pricing research</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Payer's analogues & precedents</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Economically justifiable price (EJP)</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>HE analysis integration</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Access schemes, RSAs, MESs</span></li>
                 </ul>
               </div>
 
@@ -92,13 +92,13 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-900">HTA</h3>
                 </div>
-                <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>HTA roadmapping</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Reimbursement dossier development</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Dossier review</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Targeted literature reviews</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Stakeholder input collection</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Patient organization engagement</span></li>
+                <ul className="text-gray-700 text-base space-y-1">
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>HTA roadmapping</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Reimbursement dossier development</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Dossier review</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Targeted literature reviews</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Stakeholder input collection</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Patient organization engagement</span></li>
                 </ul>
               </div>
             </div>
@@ -114,13 +114,13 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-900">HE (Health Economics)</h3>
                 </div>
-                <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Model development (CUA, CEA, CMA)</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Decision Tree, Markov, Partition Survival</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>BIA: Financial & Outcome-based</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Model adaptation</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>COI/BOI studies</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Bucker ITC & Local HE studies</span></li>
+                <ul className="text-gray-700 text-base space-y-1">
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Model development (CUA, CEA, CMA)</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Decision Tree, Markov, Partition Survival</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>BIA: Financial & Outcome-based</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Model adaptation</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>COI/BOI studies</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Bucker ITC & Local HE studies</span></li>
                 </ul>
               </div>
 
@@ -133,13 +133,13 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-semibold text-gray-900">OR / RWE</h3>
                 </div>
-                <ul className="text-gray-700 text-sm space-y-1">
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence gaps analysis</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence generation planning</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Costing and MRU studies</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Ad boards, Delphi Panels</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Publications & Literature reviews</span></li>
-                  <li className="flex items-center"><span className="mr-2 text-lg">•</span><span>Evidence dissemination</span></li>
+                <ul className="text-gray-700 text-base space-y-1">
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Evidence gaps analysis</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Evidence generation planning</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Costing and MRU studies</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Ad boards, Delphi Panels</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Publications & Literature reviews</span></li>
+                  <li className="flex items-baseline"><span className="mr-2 text-2xl">•</span><span>Evidence dissemination</span></li>
                 </ul>
               </div>
             </div>
