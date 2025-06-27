@@ -24,45 +24,99 @@ export default function Home() {
                 Our Services
               </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                We provide comprehensive healthcare consulting services designed to transform your organization's performance and patient care delivery.
+                We provide comprehensive market access consulting services designed to optimize your product's pathway to market and maximize commercial success.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            {/* First row - 3 services */}
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-[#0E6AAB] rounded-lg flex items-center justify-center mb-6">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19c6.28 0 10-9.79 10-9.79S15.28 3 9 3s-8 3.21-8 7.21S2.72 19 9 19z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9h.01" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Quality Improvement</h3>
-                <p className="text-gray-700">
-                  Implement evidence-based quality improvement initiatives to enhance patient safety, clinical outcomes, and regulatory compliance.
-                </p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Market Access</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Market/payer landscape assessment</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Stakeholder/KOL mapping</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>New product planning</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Value proposition development</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>GVD/CVD development and adaptation</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Payer engagement</span></li>
+                </ul>
               </div>
 
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-[#65A837] rounded-lg flex items-center justify-center mb-6">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Operational Excellence</h3>
-                <p className="text-gray-700">
-                  Streamline workflows, optimize resource allocation, and improve operational efficiency across all departments.
-                </p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Pricing</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Pricing research</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Willingness-to-pay (Gabor-Granger/Van Westendorp)</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Payer's analogues & precedents</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Economically justifiable price (EJP)</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>HE analysis integration</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Access schemes, RSAs, MESs</span></li>
+                </ul>
               </div>
 
               <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-[#0E6AAB] rounded-lg flex items-center justify-center mb-6">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Financial Optimization</h3>
-                <p className="text-gray-700">
-                  Develop sustainable financial strategies, revenue cycle management, and cost reduction initiatives.
-                </p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">HTA</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>HTA roadmapping</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Reimbursement dossier development</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Dossier review</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Targeted literature reviews</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Stakeholder input collection</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Patient organization engagement</span></li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Second row - 2 services */}
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
+                <div className="w-16 h-16 bg-[#65A837] rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">HE (Health Economics)</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Model development (CUA, CEA, CMA)</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Decision Tree, Markov, Partition Survival</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>BIA: Financial & Outcome-based</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Model adaptation</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>COI/BOI studies</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Bucker ITC & Local HE studies</span></li>
+                </ul>
+              </div>
+
+              <div className="bg-[#E8E8E8] p-8 rounded-xl hover:shadow-lg transition-shadow">
+                <div className="w-16 h-16 bg-[#0E6AAB] rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">OR / RWE</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evidence gaps analysis</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evidence generation planning</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Costing and MRU studies</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Ad boards, Delphi Panels</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Publications & Literature reviews</span></li>
+                  <li className="flex items-start"><span className="mr-2 mt-1">•</span><span>Evidence dissemination</span></li>
+                </ul>
               </div>
             </div>
           </div>
