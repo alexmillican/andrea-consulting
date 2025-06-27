@@ -13,9 +13,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Andrea Consulting - Strategic Business Solutions",
-  description: "Expert consulting services for modern businesses. Transform your operations with strategic insights and proven methodologies.",
+  title: "Freedom House Health Consulting - Healthcare Business Solutions",
+  description: "Expert healthcare consulting services for modern healthcare businesses. Transform your operations with strategic insights and proven methodologies.",
 };
+
+function Header() {
+  return (
+    <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-200">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-3">
+            {/* Logo placeholder - will be added later */}
+            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-lg">FH</span>
+            </div>
+            <div>
+              <h1 className="text-xl font-bold text-gray-900">Freedom House Health Consulting</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
 
 export default function RootLayout({
   children,
@@ -27,6 +47,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
