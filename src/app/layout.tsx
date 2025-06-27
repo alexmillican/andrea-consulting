@@ -30,7 +30,7 @@ function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             {/* Company Logo */}
-            <div className="w-12 h-12 flex items-center justify-center">
+            <div className="w-12 h-12 flex items-center justify-center -mt-1">
               <img 
                 src="/20250627_FH Consulting_Logo.png" 
                 alt="Freedom House Health Consulting Logo" 
