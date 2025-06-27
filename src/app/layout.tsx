@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Spectral } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +10,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const spectral = Spectral({
+  variable: "--font-spectral",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -23,12 +29,16 @@ function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            {/* Logo placeholder - will be added later */}
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">FH</span>
+            {/* Company Logo */}
+            <div className="w-12 h-12 flex items-center justify-center">
+              <img 
+                src="/20250627_FH Consulting_Logo.png" 
+                alt="Freedom House Health Consulting Logo" 
+                className="w-12 h-12 object-contain"
+              />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Freedom House Health Consulting</h1>
+              <h1 className={`text-2xl md:text-3xl font-bold text-gray-900 ${spectral.className}`}>Freedom House Health Consulting</h1>
             </div>
           </div>
         </div>
@@ -45,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${spectral.variable} antialiased`}
       >
         <Header />
         {children}
