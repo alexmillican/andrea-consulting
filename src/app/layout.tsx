@@ -20,8 +20,8 @@ const spectral = Spectral({
 });
 
 export const metadata: Metadata = {
-  title: "Freedom House Health Consulting - Healthcare Business Solutions",
-  description: "Expert healthcare consulting services for modern healthcare businesses. Transform your operations with strategic insights and proven methodologies.",
+  title: "Freedom House Healthcare Consulting",
+  description: "Helping Life Sciences organizations optimize their market access leveraging HEOR tools.",
 };
 
 function Header() {
@@ -34,14 +34,14 @@ function Header() {
             <div className="w-12 h-12 flex items-center justify-center -mt-1">
               <Image 
                 src="/20250627_FH Consulting_Logo.png" 
-                alt="Freedom House Health Consulting Logo" 
+                alt="Freedom House Healthcare Consulting Logo" 
                 width={48}
                 height={48}
                 className="object-contain"
               />
             </div>
             <div>
-              <h1 className={`text-2xl md:text-3xl font-bold text-gray-900 ${spectral.className}`}>Freedom House Health Consulting</h1>
+              <h1 className={`text-2xl md:text-3xl font-bold text-gray-900 ${spectral.className}`}>Freedom House Healthcare Consulting</h1>
             </div>
           </div>
         </div>
